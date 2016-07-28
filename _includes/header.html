@@ -16,12 +16,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <!-- <a href="#page-top"></a> -->
+                        <a href="/"></a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
@@ -32,6 +33,18 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="/">HOME</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/products">PRODUCTS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/news">NEWS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/news">COMPANY</a>
                     </li>
                 </ul>
             </div>
@@ -43,9 +56,13 @@
     <!-- Header -->
     <header>
         <div class="container">
+
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
+              {% if page.gambar %}
+               <img class="page-scroll" src="{{ page.gambar }}" alt="{{page.alt}}" width="256" height="256">
+               {% endif %}
+                <div class="intro-lead-in"></div>
+                <div class="intro-heading">{{page.title}}</div>
                 <a href="#services" class="page-scroll btn btn-xl"><i class="fa fa-angle-double-down fa-3x" style="color:white"></i></a>
             </div>
         </div>
