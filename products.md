@@ -25,10 +25,10 @@ gambar: /img/products.png
 <section id="portfolio" class="bg-light-gray">
 		<div class="container">
 
-
-				{% for post in site.posts %}
+		{% for post in site.categories['products'] %}
 						<div class="col-md-4 col-sm-6 portfolio-item">
-								<a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+
+								<a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-link" data-toggle="modal">
 										<div class="portfolio-hover">
 												<div class="portfolio-hover-content">
 														<i class="fa fa-plus fa-3x"></i>
