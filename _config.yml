@@ -1,9 +1,9 @@
-url: https://y7kim.github.io
+url: http://127.0.0.1:4000/
 baseurl:
 
 # Site settings
 title: OUKA
-email: your-email@domain.com
+email: catherine@oukavip.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
@@ -12,6 +12,7 @@ people:
 - name: Catherine Zhang
   pic: 1
   position: Lead Designer
+  mail: catherine@oukavip.com
   social:
     - title: twitter
       url: #
@@ -20,9 +21,10 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Owen Zhu
+- name: David Wang
   pic: 2
   position: Lead Marketer
+  mail: sales@oukavip.com
   social:
     - title: twitter
       url: #
@@ -31,9 +33,10 @@ people:
     - title: linkedin
       url: #
 
-- name: Yangjun Zhu
+- name: Lily Jiang
   pic: 3
   position: Lead Developer
+  mail: Lily@oukavip.com
   social:
     - title: twitter
       url: #
@@ -42,9 +45,10 @@ people:
     - title: google-plus
       url: #
 
-- name: Yangjun Zhu
+- name: Flora Huang
   pic: 3
   position: Lead Developer
+  mail: flora@oukavip.com
   social:
     - title: twitter
       url: #
