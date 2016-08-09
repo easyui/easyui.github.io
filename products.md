@@ -34,7 +34,7 @@ gambar: /img/products.png
 														<i class="fa fa-plus fa-3x"></i>
 												</div>
 										</div>
-										<img src="/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+										<img src="{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
 								</a>
 								<div class="portfolio-caption">
 										<h4>{{ post.title }}</h4>
