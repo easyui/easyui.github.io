@@ -2,5 +2,5 @@
 layout: factoryview
 title: Factory view
 permalink: /factoryview/
-gambar: /img/news.png
+gambar: /img/factoryview/FRONT GATE.jpg
 ---
