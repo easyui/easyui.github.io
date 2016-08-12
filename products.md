@@ -31,7 +31,7 @@ gambar: /img/products/2OK-180S.png
 								<a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-link" data-toggle="modal">
 										<div class="portfolio-hover">
 												<div class="portfolio-hover-content">
-														<i class="fa fa-plus fa-3x"></i>
+														<!-- <i class="fa fa-plus fa-3x"></i> -->
 												</div>
 										</div>
 										<img src="{{ post.thumbnail }}" class="img-responsive img-centered" alt="" style=" height:250px">
