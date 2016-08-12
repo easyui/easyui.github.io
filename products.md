@@ -2,7 +2,7 @@
 layout: products
 title: Products
 permalink: /products/
-gambar: /img/products/2OK-180s.png
+gambar: /img/products/2OK-180S.png
 ---
 <!-- <section>
 	<div class="container">
