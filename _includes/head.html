@@ -4,7 +4,12 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-
+{% if page.title %}
+ <meta name="keywords" content="{{ page.keywords }}">
+{% else %}
+<meta name="keywords" content="{{ site.keywords }}">
+{% endif %}
+<meta name="author" Content="ouka,changzhou,catherine@oukavip.com">
     <meta name="baidu-site-verification" content="76f4f91b1927de01e2e79b3134341b97"/>
     <script type='text/javascript'>window.BWEUM||(BWEUM={});BWEUM.info = {"stand":true,"agentType":"browser","agent":"bi-collector.oneapm.com/static/js/bw-send-411.4.5.js","beaconUrl":"bi-collector.oneapm.com/beacon","licenseKey":"AMua7~Z26ziEVYq2","applicationID":2286098};</script><script type="text/javascript" src="//bi-collector.oneapm.com/static/js/bw-loader-411.4.5.js"></script>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
