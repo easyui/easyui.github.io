@@ -11,8 +11,9 @@ keywords: "ouak,Slow Juicr,juicr,USB,常州市欧卡电器有限公司,欧卡,�
 # Team names, titles and social links
 people:
 - name: Catherine Zhang
-  pic: 1
-  position: Lead Designer
+  pic: Catheirne Zhang
+  position:
+  phone: +86-13961273280
   mail: catherine@oukavip.com
   social:
     - title: twitter
@@ -23,8 +24,9 @@ people:
       url: #
 
 - name: Michael Wong
-  pic: 2
-  position: Lead Marketer
+  pic: Michael Wong
+  position:
+  phone: +86-13961273280
   mail: sales@oukavip.com
   social:
     - title: twitter
@@ -35,8 +37,9 @@ people:
       url: #
 
 - name: Lily Jiang
-  pic: 3
-  position: Lead Developer
+  pic: Lily Jiang
+  position:
+  phone: +86-17767265450
   mail: Lily@oukavip.com
   social:
     - title: twitter
@@ -46,9 +49,10 @@ people:
     - title: google-plus
       url: #
 
-- name: Flora Huang
-  pic: 3
-  position: Lead Developer
+- name: Vivi Deng
+  pic: Vivi Deng
+  position:
+  phone: +86-18015866002
   mail: flora@oukavip.com
   social:
     - title: twitter
