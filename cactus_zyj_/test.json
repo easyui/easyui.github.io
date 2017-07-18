@@ -1,0 +1,60 @@
+ResponseData:{
+    code:"A00000",
+    msg:""，
+    data: {
+ 
+    thumbnailImgUrl:"http://www.qiyipic.com/common/fix/h5_qiyiShop_img/coupon_qiyiLogo.png", //缩略图地址
+    recommendProducts:[ //推荐的商品
+           {
+                "productId":"19rrnc8rrc",  //商品链接ID
+                "mainImage":"http://mall1.qiyipic.com/mall/20160608/50/9b/mall_5757ef1114d4556dc020509b_1x1.jpg", //商品主图图片
+                "price":"32433", //价格（单位分）   
+                "originalPrice":"45318"， //原价格（单位分）
+                "title":"商品名称很长"//商品名称
+                "saleQuantity":"1000", //销量数值
+           }
+    ],
+ 
+    //分类列表
+    classList:[
+    {
+        classId:"12323", //分类ID
+        className:"分类名称1", //分类名称
+        classProducts:[ //分类下的商品
+           {
+                "type":"1",  //1：普通商品 2：图片
+                "productId":"19rrnc8rrc",  //商品链接ID
+                "mainImage":"http://mall1.qiyipic.com/mall/20160608/50/9b/mall_5757ef1114d4556dc020509b_1x1.jpg", //商品主图图片
+                "price":"32433", //价格（单位分）   
+                "originalPrice":"45318"， //原价格（单位分）
+                "title":"商品名称很长"//商品名称
+                "saleQuantity":"1000", //销量数值
+           }，
+          {
+                "type":"2",  //1：普通商品 2：图片
+                "productId":"19rrnc8rrc",  //商品链接ID
+                "mainImage":"http://mall1.qiyipic.com/mall/20160608/50/9b/mall_5757ef1114d4556dc020509b_1x1.jpg", //主图图片url
+           }
+        ],
+    },
+    {
+        classId:"456789", //分类ID
+        className:"分类名称2", //分类名称
+        classProducts:[ //分类下的商品
+           {
+                "type":"1",  //1：普通商品 2：图片
+                "productId":"19rrnc8rrc",  //商品链接ID
+                "mainImage":"http://mall1.qiyipic.com/mall/20160608/50/9b/mall_5757ef1114d4556dc020509b_1x1.jpg", //商品主图图片
+                "price":"32433", //价格（单位分）   
+                "originalPrice":"45318"， //原价格（单位分）
+                "title":"商品名称很长"//商品名称
+                "saleQuantity":"1000", //销量数值
+           }，
+          {
+                "type":"2",  //1：普通商品 2：图片
+                "productId":"19rrnc8rrc",  //商品链接ID
+                "mainImage":"http://mall1.qiyipic.com/mall/20160608/50/9b/mall_5757ef1114d4556dc020509b_1x1.jpg", //主图图片url
+           }
+        ],
+    }]
+}
