@@ -29,7 +29,7 @@ ResponseData:{
                 "originalPrice":"45318"， //原价格（单位分）
                 "title":"商品名称很长"//商品名称
                 "saleQuantity":"1000", //销量数值
-           }，
+           },
           {
                 "type":"2",  //1：普通商品 2：图片
                 "productId":"19rrnc8rrc",  //商品链接ID
@@ -49,7 +49,7 @@ ResponseData:{
                 "originalPrice":"45318"， //原价格（单位分）
                 "title":"商品名称很长"//商品名称
                 "saleQuantity":"1000", //销量数值
-           }，
+           },
           {
                 "type":"2",  //1：普通商品 2：图片
                 "productId":"19rrnc8rrc",  //商品链接ID
