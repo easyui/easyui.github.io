@@ -1,6 +1,6 @@
 ResponseData:{
     code:"A00000",
-    msg:""，
+    msg:"",
     data: {
  
     thumbnailImgUrl:"http://www.qiyipic.com/common/fix/h5_qiyiShop_img/coupon_qiyiLogo.png", //缩略图地址
