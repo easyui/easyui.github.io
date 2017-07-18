@@ -26,7 +26,7 @@ ResponseData:{
                 "productId":"19rrnc8rrc",  //商品链接ID
                 "mainImage":"http://mall1.qiyipic.com/mall/20160608/50/9b/mall_5757ef1114d4556dc020509b_1x1.jpg", //商品主图图片
                 "price":"32433", //价格（单位分）   
-                "originalPrice":"45318"， //原价格（单位分）
+                "originalPrice":"45318", //原价格（单位分）
                 "title":"商品名称很长"//商品名称
                 "saleQuantity":"1000", //销量数值
            },
@@ -46,7 +46,7 @@ ResponseData:{
                 "productId":"19rrnc8rrc",  //商品链接ID
                 "mainImage":"http://mall1.qiyipic.com/mall/20160608/50/9b/mall_5757ef1114d4556dc020509b_1x1.jpg", //商品主图图片
                 "price":"32433", //价格（单位分）   
-                "originalPrice":"45318"， //原价格（单位分）
+                "originalPrice":"45318", //原价格（单位分）
                 "title":"商品名称很长"//商品名称
                 "saleQuantity":"1000", //销量数值
            },
