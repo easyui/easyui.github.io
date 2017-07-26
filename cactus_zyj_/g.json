@@ -55,7 +55,7 @@
     "classList": [
       {
         "classId": "123",
-        "className": "分类名称123456789",
+        "className": "1",
         "classProducts": [
           {
             "type": "1",
@@ -178,7 +178,7 @@
       },
       {
         "classId": "456",
-        "className": "分类名称2",
+        "className": "2",
         "classProducts": [
           {
             "type": "1",
@@ -301,7 +301,7 @@
       },
       {
         "classId": "4563",
-        "className": "分类名称3",
+        "className": "3",
         "classProducts": [
           {
             "type": "1",
@@ -424,7 +424,7 @@
       },
       {
         "classId": "45633",
-        "className": "分类名称4",
+        "className": "4",
         "classProducts": [
           {
             "type": "1",
@@ -448,7 +448,7 @@
       },
       {
         "classId": "456433",
-        "className": "分类名称5",
+        "className": "5",
         "classProducts": [
           {
             "type": "1",
@@ -472,7 +472,7 @@
       },
       {
         "classId": "45632113",
-        "className": "分类名称6",
+        "className": "6",
         "classProducts": [
           {
             "type": "1",
@@ -496,7 +496,7 @@
       },
       {
         "classId": "456733",
-        "className": "分类名称",
+        "className": "7",
         "classProducts": [
           {
             "type": "1",
@@ -520,7 +520,7 @@
       },
       {
         "classId": "4522233633",
-        "className": "分类名称42",
+        "className": "8",
         "classProducts": [
           {
             "type": "1",
