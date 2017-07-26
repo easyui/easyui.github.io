@@ -52,80 +52,8 @@
         "saleQuantity": "0"
       }
     ],
-    "classList": [
-      {
-        "classId": "45632113",
-        "className": "6",
-        "classProducts": [
-          {
-            "type": "1",
-            "productId": "19rrif45z8",
-            "title": "卖家包税",
-            "mainImage": "http://mall9.qiyipic.com/mall/20161206/75/c3/mall_584676bad2999d10372f75c3_1x1.jpg",
-            "price": "1100",
-            "originalPrice": "",
-            "saleQuantity": "3"
-          },
-          {
-            "type": "1",
-            "productId": "19rrif3ud0",
-            "title": "全球购0.01",
-            "mainImage": "http://mall2.qiyipic.com/mall/20161212/bf/44/mall_584e100ef6882e5fa209bf44_1x1.jpg",
-            "price": "10",
-            "originalPrice": "",
-            "saleQuantity": "2"
-          }
-        ]
-      },
-      {
-        "classId": "456733",
-        "className": "7",
-        "classProducts": [
-          {
-            "type": "1",
-            "productId": "19rrif45z8",
-            "title": "卖家包税",
-            "mainImage": "http://mall9.qiyipic.com/mall/20161206/75/c3/mall_584676bad2999d10372f75c3_1x1.jpg",
-            "price": "1100",
-            "originalPrice": "",
-            "saleQuantity": "3"
-          },
-          {
-            "type": "1",
-            "productId": "19rrif3ud0",
-            "title": "全球购0.01",
-            "mainImage": "http://mall2.qiyipic.com/mall/20161212/bf/44/mall_584e100ef6882e5fa209bf44_1x1.jpg",
-            "price": "10",
-            "originalPrice": "",
-            "saleQuantity": "2"
-          }
-        ]
-      },
-      {
-        "classId": "4522233633",
-        "className": "8",
-        "classProducts": [
-          {
-            "type": "1",
-            "productId": "19rrif45z8",
-            "title": "卖家包税",
-            "mainImage": "http://mall9.qiyipic.com/mall/20161206/75/c3/mall_584676bad2999d10372f75c3_1x1.jpg",
-            "price": "1100",
-            "originalPrice": "",
-            "saleQuantity": "3"
-          },
-          {
-            "type": "1",
-            "productId": "19rrif3ud0",
-            "title": "全球购0.01",
-            "mainImage": "http://mall2.qiyipic.com/mall/20161212/bf/44/mall_584e100ef6882e5fa209bf44_1x1.jpg",
-            "price": "10",
-            "originalPrice": "",
-            "saleQuantity": "2"
-          }
-        ]
-      }
-    ]
+    
+ 
   },
   "code": "A00000",
   "msg": ""
