@@ -1,6 +1,6 @@
 ---
 layout: contactus
 title: Contact us
-permalink: /contactus/
+permalink: /qikacontactus/
 gambar: /img/home.png
 ---
