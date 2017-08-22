@@ -1,18 +1,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>意见反馈</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}"> {% if page.title %}
     <meta name="keywords" content="{{ page.keywords }}"> {% else %}
     <meta name="keywords" content="{{ site.keywords }}"> {% endif %}
     <meta name="author" Content="ouka,changzhou,catherine@oukavip.com">
     <meta name="baidu-site-verification" content="76f4f91b1927de01e2e79b3134341b97" />
-    <!-- <script type='text/javascript'>window.BWEUM||(BWEUM={});BWEUM.info = {"stand":true,"agentType":"browser","agent":"bi-collector.oneapm.com/static/js/bw-send-411.4.5.js","beaconUrl":"bi-collector.oneapm.com/beacon","licenseKey":"AMua7~Z26ziEVYq2","applicationID":2286098};</script><script type="text/javascript" src="//bi-collector.oneapm.com/static/js/bw-loader-411.4.5.js"></script> -->
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ " /style.css " | prepend: site.baseurl }}">
 
     <!-- Custom Fonts -->
@@ -82,75 +79,76 @@
 <script src="{{ " /js/jqBootstrapValidation.js " | prepend: site.baseurl }}"></script>
 <!-- <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script> -->
 <script>
-      $(function () {
+    $(function () {
 
-          $("input,textarea").jqBootstrapValidation({
-              preventSubmit: true,
-              submitError: function ($form, event, errors) {
-                  // additional error messages or events
-              },
-              submitSuccess: function ($form, event) {
-                  event.preventDefault(); // prevent default submit behaviour
-                  // get values from FORM
-                  var name = $("input#name").val();
-                  var email = $("input#email").val();
-                  var phone = $("input#phone").val();
-                  var message = $("textarea#message").val();
-                  var firstName = name; // For Success/Failure Message
-                  // Check for white space in name for Success/Fail message
-                  if (firstName.indexOf(' ') >= 0) {
-                      firstName = name.split(' ').slice(0, -1).join(' ');
-                  }
-                  $.ajax({
-                      url: "//formspree.io/zyjmessage@163.com",
-                      type: "POST",
-                      data: {
-                          name: name,
-                          phone: phone,
-                          email: email,
-                          message: message
-                      },
-                      success: function () {
-                          // Success message
-                          $('#success').html("<div class='alert alert-success'>");
-                          $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                              .append("</button>");
-                          $('#success > .alert-success')
-                              .append("<strong>Your message has been sent. </strong>");
-                          $('#success > .alert-success')
-                              .append('</div>');
+        $("input,textarea").jqBootstrapValidation({
+            preventSubmit: true,
+            submitError: function ($form, event, errors) {
+                // additional error messages or events
+            },
+            submitSuccess: function ($form, event) {
+                event.preventDefault(); // prevent default submit behaviour
+                // get values from FORM
+                var name = $("input#name").val();
+                var email = $("input#email").val();
+                var phone = $("input#phone").val();
+                var message = $("textarea#message").val();
+                var firstName = name; // For Success/Failure Message
+                // Check for white space in name for Success/Fail message
+                if (firstName.indexOf(' ') >= 0) {
+                    firstName = name.split(' ').slice(0, -1).join(' ');
+                }
+                $.ajax({
+                    url: "//formspree.io/zyjmessage@163.com",
+                    type: "POST",
+                    data: {
+                        name: name,
+                        phone: phone,
+                        email: email,
+                        message: message
+                    },
+                    success: function () {
+                        // Success message
+                        $('#success').html("<div class='alert alert-success'>");
+                        $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                            .append("</button>");
+                        $('#success > .alert-success')
+                            .append("<strong>Your message has been sent. </strong>");
+                        $('#success > .alert-success')
+                            .append('</div>');
 
-                          //clear all fields
-                          $('#contactForm').trigger("reset");
-                      },
-                      error: function () {
-                          // Fail message
-                          $('#success').html("<div class='alert alert-danger'>");
-                          $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                              .append("</button>");
-                          $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
-                          $('#success > .alert-danger').append('</div>');
-                          //clear all fields
-                          $('#contactForm').trigger("reset");
-                      },
-                  })
-              },
-              filter: function () {
-                  return $(this).is(":visible");
-              },
-          });
+                        //clear all fields
+                        $('#contactForm').trigger("reset");
+                    },
+                    error: function () {
+                        // Fail message
+                        $('#success').html("<div class='alert alert-danger'>");
+                        $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                            .append("</button>");
+                        $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                        $('#success > .alert-danger').append('</div>');
+                        //clear all fields
+                        $('#contactForm').trigger("reset");
+                    },
+                })
+            },
+            filter: function () {
+                return $(this).is(":visible");
+            },
+        });
 
-          $("a[data-toggle=\"tab\"]").click(function (e) {
-              e.preventDefault();
-              $(this).tab("show");
-          });
-      });
+        $("a[data-toggle=\"tab\"]").click(function (e) {
+            e.preventDefault();
+            $(this).tab("show");
+        });
+    });
 
 
-      /*When clicking on Full hide fail/success boxes */
-      $('#name').focus(function () {
-          $('#success').html('');
-      });
+    /*When clicking on Full hide fail/success boxes */
+    $('#name').focus(function () {
+        $('#success').html('');
+    });
+
 </script>
 <!-- Custom Theme JavaScript -->
 <script src="{{ " /js/agency.js " | prepend: site.baseurl }}"></script>
