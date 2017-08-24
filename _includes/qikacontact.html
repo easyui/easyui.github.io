@@ -62,28 +62,28 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="您的名字 *" id="name" required data-validation-required-message="请填写您的名字，便于我们联系您。">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group form-group">
-                                <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="您的邮箱 *" id="email" required data-validation-required-message="请填写您的邮箱，便于我们联系您。">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group form-group">
-                                <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <input type="tel" class="form-control" placeholder="您的电话 *" id="phone" required data-validation-required-message="请填写您的电话，便于我们联系您。">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" placeholder="请填写您的意见和反馈 *" id="message" required data-validation-required-message="请填写您的意见和反馈。"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">Send Message</button>
+                            <button type="submit" class="btn btn-xl">发送</button>
                         </div>
                     </div>
                 </form>
@@ -144,7 +144,7 @@
                         $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                             .append("</button>");
                         $('#success > .alert-success')
-                            .append("<strong>Your message has been sent. </strong>");
+                            .append("<strong>反馈成功，非常感谢！ </strong>");
                         $('#success > .alert-success')
                             .append('</div>');
 
@@ -156,7 +156,7 @@
                         $('#success').html("<div class='alert alert-danger'>");
                         $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                             .append("</button>");
-                        $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                        $('#success > .alert-danger').append("<strong>对不起 " + firstName + ", 出了点问题，请等会在试。");
                         $('#success > .alert-danger').append('</div>');
                         //clear all fields
                         $('#contactForm').trigger("reset");
