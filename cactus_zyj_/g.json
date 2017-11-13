@@ -54,6 +54,43 @@
         "saleQuantity": "0"
       }
     ],
+     recommendClassList:[
+    {
+        classId:"112",//分类ID
+        className:"主推商品",//分类名称
+        classProducts:[//分类下的商品
+        {
+            type:"1",//1：普通商品 2：图片
+            productId:"19rri43jzs",//商品链接ID
+            title:"千4rq",//商品名称
+            mainImage:"http://mall8.qiyipic.com/mall/20170807/1c/84/mall_5987dcdcf6882e18ae6d1c84_1x1.jpg",//商品主图图片
+            price:"3000",//价格（单位分）
+            originalPrice:"",//原价格（单位分）
+            saleQuantity:"0",//销量数值
+            target:{
+                    type:"1",//领取优惠券接口,后续定义
+                    url:"",
+                    pageTypeId:"7",
+                    params:{pageDataId:"19rri43jzs"}
+                    }
+        },
+        {
+            type:"1",
+            productId:"19rri43o6o",
+            title:"1231打法",
+            mainImage:"http://mall9.qiyipic.com/mall/20170807/25/8c/mall_5988237114d4552f7277258c_1x1.png",
+            price:"12000",
+            originalPrice:"",
+            saleQuantity:"0",
+            target:{
+                type:"1",
+                url:"",
+                pageTypeId:"7",
+                params:{pageDataId:"19rri43o6o"}
+            }
+        }
+        ]
+    }],
     "classList": [
       {
         "classId": "123",
