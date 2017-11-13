@@ -67,7 +67,7 @@
             "price":"3000",
             "originalPrice":"",
             "saleQuantity":"0",
-            "target:{
+            "target":{
                     "type":"1",
                     "url":"",
                     "pageTypeId":"7",
