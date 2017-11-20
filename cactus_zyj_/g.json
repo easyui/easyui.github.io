@@ -91,7 +91,7 @@
         }
         ]
     }],
-     "recommendClassList":[//主推商品，对应热销
+     "recommendClassList":[
     {
          
             "type":"1", 
