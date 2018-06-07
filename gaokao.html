@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <title>高考加油</title>
+    <title id='titleName'>高考加油</title>
     <script type="text/javascript">
         if (window.top !== window.self) { top.location = self.location; }
     </script>
@@ -107,6 +107,9 @@
 
         var view = document.getElementById('babyName')
         view.innerText = babyName + '宝宝高考倒计时'
+        var titleview = document.getElementById('titleName')
+        titleview.innerText = view.innerText
+        
         var nowYear = (new Date()).getFullYear()
         var gaokaoYear = nowYear + 19 - babyAge
         if (gaokaoYear <= nowYear) {
