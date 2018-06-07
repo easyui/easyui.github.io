@@ -54,6 +54,13 @@
             position: relative;
             top: 49%
         }
+
+        .bottom_footer {
+            position: fixed;
+            bottom: 0px;
+            text-align: center;
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -74,6 +81,11 @@
             <b id="s"></b> 秒
         </div>
     </div>
+    <div class="bottom_footer">
+        <p>溧阳楼市公众号祝所有考生：高考顺利，金榜题名！</p>    
+        <img src="http://www.oukavip.com/cactus_zyj_/liyangloushi.jpg"  alt="溧阳楼市公众号" style="width:60;height:60px;" />
+    
+    </div>
 
     <script>
         function getRequest() {
@@ -89,12 +101,12 @@
             return theRequest;
         }
         var reqyestParams = getRequest()
-        var babyName = reqyestParams.name
+        var babyName = reqyestParams.name || ''
         var babyAge = reqyestParams.age
 
         var view = document.getElementById('bayyName')
         view.innerText = babyName + ' 宝宝高考倒计时'
-        var nowYear = (new Date()).getFullYear() 
+        var nowYear = (new Date()).getFullYear()
         var gaokaoYear = nowYear + 19 - babyAge
         if (gaokaoYear <= nowYear) {
             alert(babyName + '宝宝别装嫩了')
