@@ -72,8 +72,8 @@
     <![endif]-->
 
     <div class="content">
-        <h1 id='bayyName'>Owen宝宝高考倒计时</h1>
-        <h1>距离高考还有</h1>
+        <h1 id='babyName'></h1>
+        <h2>距离高考还有</h2>
         <div class="timer">
             <b id="d"></b> 天
             <b id="h"></b> 时
@@ -82,8 +82,9 @@
         </div>
     </div>
     <div class="bottom_footer">
-        <p>溧阳楼市公众号祝所有考生：高考顺利，金榜题名！</p>    
-        <img src="http://www.oukavip.com/cactus_zyj_/liyangloushi.jpg"  alt="溧阳楼市公众号" style="width:60;height:60px;" />
+        <p>常州市欧卡电器有限公司祝所有考生：高考顺利，金榜题名！</p>    
+        <p>公司网址：www.oukavip.com</p>    
+        <img src="http://www.oukavip.com/cactus_zyj_/ouka.png"  alt="常州市欧卡电器有限公司" style="width:60;height:60px;" />
     
     </div>
 
@@ -104,12 +105,12 @@
         var babyName = reqyestParams.name || ''
         var babyAge = reqyestParams.age
 
-        var view = document.getElementById('bayyName')
+        var view = document.getElementById('babyName')
         view.innerText = babyName + ' 宝宝高考倒计时'
         var nowYear = (new Date()).getFullYear()
         var gaokaoYear = nowYear + 19 - babyAge
         if (gaokaoYear <= nowYear) {
-            alert(babyName + '宝宝别装嫩了')
+            alert(babyName + ' 宝宝别装嫩了')
             // return
         }
         function timer() {
