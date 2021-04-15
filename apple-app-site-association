@@ -12,9 +12,7 @@
             {
                 "appID": "27A282F54N.com.iqiyi.fanfan",
                 "paths": [
-                    "/fanfan/ulink/*",
-                    "/fanStar/*",
-                    "/ulink/fanfan/*"
+                    "*"
                 ]
             }
         ]
