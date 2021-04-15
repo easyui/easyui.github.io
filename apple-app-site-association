@@ -5,8 +5,7 @@
             {
                 "appID": "E4296KK4NL.com.iqiyi.fanfan",
                 "paths": [
-                    "/ulink/zhanyan/*",
-                    "/zhanyan/*"
+                    "*"
                 ]
             },
             {
